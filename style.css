@@ -8,14 +8,27 @@ body {
 }
 h1{
     position: relative;
-    top: 28%;
+    top: 25%;
     left: 25%;
     font:25px monospace
 
 }
+
+#logo{
+    width: 120px;
+    height: 40px;
+}
+
+#logo2{
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    top: 574px;
+    left: 1228px;
+}
 form{
     position: relative;
-    top: 33%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%,-50%);
     transition: all 1s;
@@ -79,6 +92,7 @@ form:valid a {
 }
 
 #img{
+    position: relative;
     width: 100%;
     height: 50%;
     margin-top: 165px;
